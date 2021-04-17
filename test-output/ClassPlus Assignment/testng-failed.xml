@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ClassPlus Assignment]">
+  <test name="Phone Price Comparison(failed)">
+    <classes>
+      <class name="com.classplus.assignment.price_comparison.suites.PhonePriceTest">
+        <methods>
+          <include name="TC01_fetchPhonePriceAmazon"/>
+          <include name="TC03_comparePrices"/>
+          <include name="TC02_fetchPhonePriceFlipkart"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.classplus.assignment.price_comparison.suites.PhonePriceTest -->
+    </classes>
+  </test> <!-- Phone Price Comparison(failed) -->
+</suite> <!-- Failed suite [ClassPlus Assignment] -->
